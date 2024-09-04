@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+ <head><meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+  
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>KNOWFRAMES Photography</title>
+  <link rel="shortcut icon" href="../images/favicon256x256.ico">
+  <link href="css/main.css" rel="stylesheet"> <!--load all styles -->
+  <!--<script defer src="../js/all.js"></script> --><!--load all styles -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="js/fashion.js"></script>
+ </head>
+ <body onload="menuu()">
+	<div class='container'>
+		<div class='menuDesk'>
+			<div id='logo'>
+				<a href='http://knowframes.in/'>
+					<img src='images/logo.png' alt='KNOWFRAMES Photography' style='max-width:300px; vertical-align:middle;'/>
+				</a>
+			</div>
+			<ul class='menuList'>
+				<li>fashion</li>
+				<li>portrait</li>
+				<li>food</li>
+				<li>art</li>
+				<li>contact</li>
+			</ul>
+			<div style='clear:both'></div>
+		</div>
+		<div class='mainContents'><!--
+			spans -->
+			<!-- Updated Content -->
+			<div class="landscapee"><img onclick="imgCliq('Fashion','bridalfive_2')" src="images/Fashion/thumbs/_bridalfive_2.jpg"></div>
+			<!-- Updated Content -->
+		</div>
+	</div>
+	<div class='contactt'>
+		<span style='font-size:.9em; font-weight:600; margin:40px; color:#111'>E-mail :&nbsp;&nbsp;<a href="mailto:" style='color:#231f20; text-decoration:none'>knowframes@gmail.com</a></span>
+		<span style='font-size:.9em; font-weight:600; margin:40px; color:#111'>Mobile :&nbsp;&nbsp;+91 91330 16205</span>
+		<br/><br/><br/>
+		<a href='https://www.facebook.com/knowframes/' target='_blank'><img src='images/fbicon.svg' style='width:20px; padding:0 10px;'/></a>
+      <a href='https://www.instagram.com/knowframes/' target='_blank'><img src='images/instaicon.svg' style='width:20px; padding:0 10px;'/></a>
+	</div>
+	<div class='footerr'>
+		&copy; 2024 KNOWFRAMES PHOTOGRAPHY.&nbsp;&nbsp;&nbsp; All Rights Reserved.
+	</div>
+	<div id="modalObj" style="width:100%; z-index:100;background-color:rgba(240,240,240,.9); position:fixed; top:0; display:none;">
+		<a onclick="closeClick()" style="position:absolute; right:20px; top:10px; font-size:2em; color: #222; text-decoration:none; z-index:120; cursor:pointer"><span class='modalClose'></span></a>
+		<div style=" position:absolute; width:100%;"></div>
+	</div>
+	<!-- mobile Menu Content -->
+	<div id='mobMenButton' onClick='mobileMenuFunction()' style='display:none'></div>
+	<div class='mobMenuOverlay'>
+		<div id='logoMob' >
+				<a href='#'>
+					<img src='images/logo.png' alt='KNOWFRAMES Photography' style='max-width:300px; vertical-align:middle;'/>
+				</a>
+			</div>
+			<ul class='mobMenuList'>
+				<li>fashion</li>
+				<li>portrait</li>
+				<li>food</li>
+				<li>art</li>
+				<!--li>contact</li-->
+			</ul>
+		<div class='mobileContactt' style='padding-top:100px'>
+			<span style='font-size:1.8em; font-weight:600; padding:40px 0; color:#111; display:block;'>E-mail :&nbsp;&nbsp;<a href="mailto:" style='color:#231f20; text-decoration:none'>knowframes@gmail.com</a></span>
+			<span style='font-size:1.8em; font-weight:600; padding:40px 0; color:#111; display:block'>Mobile :&nbsp;&nbsp;+91 91330 16205</span>
+			<br/><br/><br/>
+			<a href='https://www.facebook.com/knowframes/' target='_blank'><img src='images/fbicon.svg' style='width:60px; padding:0 50px;'/></a>
+			<a href='https://www.instagram.com/knowframes/' target='_blank'><img src='images/instaicon.svg' style='width:60px; padding:0 50px;'/></a>
+		</div>
+		<div id='mobMenuClose' onClick='mobileMenuCloseFunction()'></div>
+	</div>
+			<!-- Mobile Menu Content -->
+ </body>
+</html>
