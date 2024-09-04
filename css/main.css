@@ -1,0 +1,210 @@
+body {
+		/*background: linear-gradient(90deg, white, gray);*/
+	  background-color: #fff;/*
+	  background: url("images/knowframesbg.svg");*/
+	  background-attachment: fixed;
+	  background-size: 80%;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  }
+	body, h1, p {
+	  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	  font-weight: normal;
+	  margin: 0;
+	  padding: 0;
+	  text-align: center;
+	  }
+	.container {
+	  margin: 0  auto;
+	  /*width: 100%;*/
+	  padding:0;
+	  /*border: 10px solid #000;*/
+	}
+	.menuDesk{
+		/*width:100%;
+		float:left;*/
+		padding:20px 40px;
+	}
+	.menuDesk #logo{
+		float:left;
+	}
+	.menuDesk ul.menuList{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		float:right;
+	}
+	.menuDesk ul.menuList li{
+		float:left;
+		padding:35px 60px;
+		padding-right:0;
+		font-weight:600;
+		text-transform:uppercase;
+		color:#231f20;
+	}
+	.menuDesk ul.menuList li a{
+		color:#231f20;
+		text-decoration:none;
+	}
+	.menuDesk ul.menuList li a:hover{
+		color:#aaa;
+		text-decoration:none;
+	}
+	.mainContents{
+		/*float:left;*/
+		/*padding:0 2px;*/
+	}
+	.mainContents div.portraitt{
+		padding:3px;
+		/*margin-right: 10px;
+		margin-bottom:10px;
+		width: 295px;*/
+		float:left; height:375px; position:relative;
+	}
+	/**/
+	.mainContents div.portraitt:hover img{
+		  opacity: .75;	
+		  cursor: url('../images/curssor-01.png'),auto;	
+	}
+	/**/
+	.mainContents div.portraitt img{
+		/*max-width:290px;*/
+		height:375px;
+		width:296px;
+		transition: 1s ease;
+  backface-visibility: hidden;
+	}
+	.mainContents div.landscapee{
+		padding:3px;
+		/*margin-right: 10px;
+		margin-bottom:10px;
+		width: 590px;*/
+		float:left; height:375px; position:relative;
+	}
+	/**/
+	.mainContents div.landscapee:hover img{
+		  opacity: .75;
+		  cursor: url('../images/curssor-01.png'),auto;
+	}
+/**/
+	.mainContents div.landscapee img{
+		/*max-width:590px;*/
+		height:375px;
+		width:598px;
+		transition: 1s ease;
+  backface-visibility: hidden;
+	}
+	/*
+	.mainContents span img{
+		max-width: 100%;
+	}
+	*/
+	.footerr{
+		width:100%;
+		padding:10px 0;
+		background:#000;
+		float:left;
+		color:#ccc;
+		font-size:.9em;
+		text-transform:uppercase;
+		text-align:center;
+	}
+	.contactt{
+		width:100%;
+		float:left;
+		padding:40px 0;
+		background:#eee;
+		/**/
+		-moz-box-shadow: inset 10px 0px 10px 10px #ccc;
+		-webkit-box-shadow: inset 0px 10px 10px 10px #ccc;
+		box-shadow: inset 10px 0px 10px 10px #ccc;
+	}
+	::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(35,31,32,.5); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+#mobMenButton{
+	background:url('../images/mobileMenuButton-01.png') no-repeat center center;
+	background-size: contain;
+	width:128px;
+	height:128px;
+	border-radius:50%;
+	position: fixed;
+	bottom:60px; right:60px;
+	-moz-box-shadow: 5px 0px 5px 5px rgba(30,30,30,.1);
+		-webkit-box-shadow: 5px 0px 5px 5px rgba(30,30,30,.1);
+		box-shadow: 5px 0px 5px 5px rgba(30,30,30,.1);
+}
+.mobMenuOverlay{
+	position:fixed;
+	background:rgba(255,255,255,.95);
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:99;
+	padding:20px 0; display:none;
+}
+ul.mobMenuList{
+display: block;
+    list-style-type: none;
+    /*position: fixed;*/
+	padding: 60px 0;
+}
+ul.mobMenuList li{
+		float:none;
+		padding:35px 0;
+		padding-right:0;
+		font-weight:600;
+		text-transform:uppercase;
+		color:#231f20;
+		font-size:2em;
+	}
+	ul.mobMenuList li a{
+		color:#231f20;
+		text-decoration:none;
+	}
+	ul.mobMenuList li a:hover{
+		color:#aaa;
+		text-decoration:none;
+	}
+#mobMenuClose{
+	background:url('../images/mobileMenuClose-01.png') no-repeat center center;
+	background-size: contain;
+	width:128px;
+	height:128px;
+	border-radius:50%;
+	position: fixed;
+	bottom:60px; right:60px;
+	-moz-box-shadow: 5px 0px 5px 5px rgba(30,30,30,.1);
+		-webkit-box-shadow: 5px 0px 5px 5px rgba(30,30,30,.1);
+		box-shadow: 5px 0px 5px 5px rgba(30,30,30,.1);
+}
+.modalClose{
+	background:url('../images/mobileMenuClose-01.png') no-repeat center center;
+	background-size: contain;
+	width:49px;
+	height:48px;
+	border-radius:50%;
+	position: fixed;
+	top:24px; right:24px;
+	-moz-box-shadow: 1px 0px 1px 1px rgba(30,30,30,.1);
+		-webkit-box-shadow: 1px 0px 1px 1px rgba(30,30,30,.1);
+		box-shadow: 1px 0px 1px 1px rgba(30,30,30,.1);
+}
